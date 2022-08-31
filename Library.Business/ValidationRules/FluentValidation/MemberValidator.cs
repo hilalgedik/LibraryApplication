@@ -12,9 +12,7 @@ namespace Library.Business.ValidationRules.FluentValidation
     {
         public MemberValidator()
         {
-            RuleFor(m => m.Uye_Isim).NotEmpty();
-
-
+            RuleFor(m => m.Uye_Isim).NotEmpty()
 
         }
     }
