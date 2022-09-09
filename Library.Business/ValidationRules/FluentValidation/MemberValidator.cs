@@ -14,6 +14,7 @@ namespace Library.Business.ValidationRules.FluentValidation
         {
             RuleFor(m => m.Uye_Isim).NotEmpty();
 
+
         }
     }
 }
